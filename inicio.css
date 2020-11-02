@@ -45,7 +45,7 @@ hr{
 
 @keyframes hr{
 	 from {width:0%;}
-     to {width:100%;);}
+     to {width:100%;}
 }
 
 header{
@@ -452,7 +452,7 @@ section .carta .caja .contenidocaja div{
 	transform-style:preserve-3d;
 	padding:20px;
 	background:orange;
-	transform:traslateZ(100px);
+	transform:translateZ(100px);
 	border-radius:10px;
 }
 
@@ -515,7 +515,6 @@ footer{
 	position:relative;
 	text-align:center;
 	background-color: #ff8066;
-	border:3px solid skylue;
 	color:white;
 	text-align:center;
 	border-radius: 3px;
