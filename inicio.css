@@ -48,17 +48,23 @@ hr{
      to {width:100%;}
 }
 
+.nav-wrapper{
+	margin: 0px 0px 12px 0px!important;
+}
+
 header{
 	position:absolute;
 	top:0;
 	left:0;
-	padding:0 100px 0 0;
+	padding:0 0px 0 0;
 	background-image: linear-gradient(170deg, #ff8305, #e8dd73, #70ff00);
 	width:100%;
 	box-sizing:border-box;
 	z-index:1;
 	
 }
+
+
 
 header .logoboca{
 	float: left;
@@ -105,15 +111,6 @@ header nav ul li a:hover, header nav ul li a.active{
 	background:orange;
 }
 
-.menu-toogle{
-	color: #fff;
-	float:right;
-	line-height:50px;
-	font-size:24px;
-	cursor:pointer;
-	display:none;
-	height:50px;
-}
 
 @media(max-width: 991px){
 	header{
@@ -167,7 +164,7 @@ header nav ul li a:hover, header nav ul li a.active{
 	}
 	
 	img.espe, img.teojama, img.ucentral, img.vanoni{
-	width:50%!important;
+	width:70%!important;
 	height:100%;
 	padding:10px;
 	}
@@ -202,6 +199,42 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+/* pagina contacto nav */
+
+li.dropabajo {
+  display: inline-block;
+}
+
+.dropdown-contenido {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-contenido a {
+  color: black;
+  padding: 8px 8px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-contenido a:hover {
+	background-color: orange;
+	color:black;
+}
+
+.dropabajo:hover .dropdown-contenido {
+  display: block;
+}
+
+
+
 
 article{
 	text-align:center;
@@ -549,7 +582,7 @@ footer div div div p .fa{
 footer div div div p:before{
 	font-family: fontAwesome;
 	position:absolute;
-	top:8px;
+	top:1px;
 	left:10px;
 	font-size:2em;
 	height:0;
@@ -569,7 +602,7 @@ footer div div div p:nth-child(3)::before{
 }
 
 footer div div div p:hover::before{
-	height:65%;
+	height:85%;
 	cursor:pointer;
 }
 

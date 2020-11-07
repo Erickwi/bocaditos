@@ -16,32 +16,41 @@
   gtag('config', 'G-4BCTY69896');
 </script>
 
-<script data-ad-client="ca-pub-7280796474142955" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>	
-	
-	
 <title> Bocaditos La Guaragua</title>
 <link rel="icon" href="NATY.ico"/>
 <meta name="description" content="Naty: Comida Ecuatoriana y Fast Food. Ven y disfruta de los más deliciosos platillos de termporada, a un precio económico. Deleitate con la mejor sazón">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-<header>
-<div class="logoboca"><a href="index"><img src="LOGOBOCADITOS.png" class="logoboca" alt="Bocaditos La Guaragua logo"></a></div>
-	<nav>
-		<ul>
-			<li class="dropdown">
-			<a href="#" class="actives" target="_self">Bocaditos</a>
-		<div class="dropdown-content">
-			<a href="Desal">De Sal</a>
-			<a href="Dedulce">De dulce</a>
-		</div>
-			<li class="buscador"><a href="platos"> Platos Fuertes</a></li>
-			<li class="buscador"><a href="Nuestrosclientes">Nuestros clientes</a></li>
-			<li class="buscador"><a href="contacto"> Contactos</a></li>
-		</ul>
-	</nav>
-	<div class="menu-toogle"><i><img src="navlista.png" alt="navlista"/> </i></div>
-</header>
+
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="Desal">De Sal</a></li>
+  <li><a href="Dedulce">De Dulce</a></li>
+</ul>
+<nav>
+  <div class="nav-wrapper">
+     <a href="index" class="brand-logo">Bocaditos La Guaragua</a>
+    <ul class="right hide-on-med-and-down">
+	      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Bocaditos<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a href="platos">Platos Fuertes</a></li>
+  <li><a href="Nuestrosclientes">Nuestros clientes</a></li>
+  <li><a href="contacto">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+ <ul class="sidenav" id="mobile-demo">
+    <li><a href="#!">Bocaditos</a></li>
+  <li><a href="Desal">De Sal</a></li>
+  <li><a href="Dedulce">De Dulce</a></li>
+	<li class="divider"></li>
+    <li><a href="platos">Platos Fuertes</a></li>
+  <li><a href="Nuestrosclientes">Nuestros clientes</a></li>
+  <li><a href="contacto">Contacto</a></li>
+  </ul>
+  
 <article>
 <h1> Bocaditos "La Guaragua" </h1>
 <h2> Para todo evento social </h2>
@@ -191,14 +200,19 @@
 			</div>
 		</div>
 	</footer>
-<script src="https://code.jquery.com/jquery-3.5.1.js"
-></script>
-<script type="text/javascript"> 
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript"> 
 $(document).ready(function(){
-	$('.menu-toogle').click(function(){
-		$('nav').toggleClass('active');
-	})
-})
-</script>
+  $(".dropdown-trigger").dropdown();
+    });
+ </script>
+
+  <script type="text/javascript"> 
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+  }); 
+  </script>
+
 </body>
 </html>
