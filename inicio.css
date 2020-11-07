@@ -203,11 +203,11 @@ li.dropdown {
 
 /* pagina contacto nav */
 
-li.dropabajo {
+li.dropdown {
   display: inline-block;
 }
 
-.dropdown-contenido {
+.dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -216,7 +216,7 @@ li.dropabajo {
   z-index: 1;
 }
 
-.dropdown-contenido a {
+.dropdown-content a {
   color: black;
   padding: 8px 8px;
   text-decoration: none;
@@ -224,12 +224,12 @@ li.dropabajo {
   text-align: left;
 }
 
-.dropdown-contenido a:hover {
+.dropdown-content a:hover {
 	background-color: orange;
 	color:black;
 }
 
-.dropabajo:hover .dropdown-contenido {
+.dropdown:hover .dropdown-contenido {
   display: block;
 }
 
@@ -412,7 +412,7 @@ article h3 a.num1:hover {
 /*nuestros clientes*/
 
 section{
-	display:flex;
+	display:flex!important;
 	justify-content:center;
 	align-items:center;
 	flex-wrap: wrap;
