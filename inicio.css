@@ -1,113 +1,617 @@
-@media(max-width: 991px) {
-article div.article1 div p{font-size:14px!important;font-weight:700}
+
+@media(max-width: 991px){
+	article div.article1 div p{
+	font-size:14px!important;
+	font-weight: bold;
 }
-@media(max-width: 425px) {
-footer div div div p:before{display:none}
-.logoboca{width:55%!important;height:100%}
-.natyindex{width:25%!important;height:100%}
 }
-@media(max-width: 320px) {
-.logoboca{height:100%;width:60%!important}
+
+@media(max-width: 425px){
+footer div div div p:before{
+	display:none;
 }
-body{margin:75px 0 0;padding:0;background-color:#ffe3e3;font-family:Georgia,sans-serif;justify-content:center;align-items:center;min-height:100vh}
-hr{border:2px dashed #87ceeb;animation-name:hr;animation-duration:4s;animation-direction:alternate}
-@keyframes hr {
-from{width:0}
-to{width:100%}
+.logoboca{
+	width:55%!important;
+	height:100%;
 }
-.nav-wrapper{margin:0 0 12px!important}
-header{position:absolute;top:0;left:0;padding:0;background-image:linear-gradient(170deg,#ff8305,#e8dd73,#70ff00);width:100%;box-sizing:border-box;z-index:1}
-header .logoboca{float:left;border-radius:5px;height:100%;width:26%;vertical-align:middle;display:block;padding-left:15px}
-header nav{float:right}
-header nav.active{left:0}
-header nav ul{margin:0;padding:0;display:flex}
-header nav ul li{list-style:none;font-weight:700}
-header nav ul li a{height:50px;line-height:50px;padding:0 20px;color:#4a4a4a;text-decoration:none;display:block}
-header nav ul li a:hover,header nav ul li a.active{color:red;background:orange}
-@media(max-width: 991px) {
-header{padding:0 20px}
-.menu-toogle{display:block}
-header nav{position:absolute;width:100%;height:calc(100vh - 50px);background:#ffce8f;top:50px;left:-100%;transition:1s}
-header nav.active{left:0}
-header nav ul{display:block;text-align:center}
-header nav ul li{list-style:none;font-weight:700;font-size:23px}
-header .logoboca{float:left;border-radius:5px;height:100%;width:34%;vertical-align:middle;display:block;padding-left:15px}
-img#facebookcontact{width:100%;height:100%}
-img.espe,img.teojama,img.ucentral,img.vanoni{width:70%!important;height:100%;padding:10px}
+.natyindex{
+	width:25%!important;
+	height:100%;
 }
-li.dropdown{display:inline-block}
-.dropdown-content{display:none;position:absolute;background-color:#f9f9f9;min-width:160px;box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);z-index:1}
-.dropdown-content a{color:#000;padding:8px;text-decoration:none;display:block;text-align:left}
-.dropdown-content a:hover{background-color:orange;color:#000}
-.dropdown:hover .dropdown-content{display:block}
-li.dropdown{display:inline-block}
-.dropdown-content{display:none;position:absolute;background-color:#f9f9f9;min-width:160px;box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);z-index:1}
-.dropdown-content a{color:#000;padding:8px;text-decoration:none;display:block;text-align:left}
-.dropdown-content a:hover{background-color:orange;color:#000}
-.dropdown:hover .dropdown-contenido{display:block}
-article{text-align:center;padding:0;width:100%}
-article div{justify-content:center;align-items:center;font-weight:700}
-article div.banquete{background-color:#dbffe1!important}
-article div.oferta1{background-color:#fcd8c5!important;border:7px groove #f99!important}
-article div.servicio{background-color:#fcd8c5!important;border:7px groove #f99!important}
-article div.article1 div p{font-size:17px;font-weight:700}
-article div.article1 div{position:relative;display:inline-block;align-items:center;justify-content:center;border:7px groove #87ff99;padding:10px;margin-bottom:10px;border-radius:10px;background-color:#dbffe1}
-article div.article1 div.oferta1 p{position:relative;align-items:center;justify-content:center}
-article img.natyindex{width:12%;height:30%}
-article h1,article h2{font-family:Lucida Calligraphy}
-.mapsico{cursor:pointer}
-article h1 a.instagram{text-decoration:none}
-article h1 a.instagram:hover{text-decoration:none;color:#009f4f}
-article h3 a.num1{text-decoration:none;color:#000}
-article h3 a.num1:hover{text-decoration:none;color:#009f4f}
-.espe{width:25%;height:100%;padding:10px;margin:10px;background-color:#fff;border-radius:10px;animation-name:espe;animation-duration:5s;animation-direction:alternate;animation-iteration-count:infinite}
-@keyframes espe {
-from{border:3px solid gray}
-to{border:3px solid #166938}
 }
-.espe:hover{box-shadow:2px 2px 5px #000}
-.teojama{width:20%;height:100%;padding:10px;margin:10px;background-color:#fff;border-radius:10px;animation-name:teojama;animation-duration:5s;animation-direction:alternate;animation-iteration-count:infinite}
-@keyframes teojama {
-from{border:3px solid gray}
-to{border:3px solid #21b47e}
+
+@media(max-width: 320px){
+.logoboca{
+	height:100%;
+	width:60%!important;
 }
-.teojama:hover{box-shadow:2px 2px 5px #000}
-.ucentral{width:20%;height:100%;padding:10px;margin:10px;background-color:#fff;border-radius:10px;animation-name:ucentral;animation-duration:5s;animation-direction:alternate;animation-iteration-count:infinite}
-@keyframes ucentral {
-from{border:3px solid gray}
-to{border:3px solid #fae92a}
 }
-.ucentral:hover{box-shadow:2px 2px 5px #000}
-.vanoni{width:20%;height:100%;padding:10px;margin:10px;background-color:#fff;border-radius:10px;animation-name:vanoni;animation-duration:5s;animation-direction:alternate;animation-iteration-count:infinite}
-@keyframes vanoni {
-from{border:3px solid #65a428}
-to{border:3px solid #184f71}
+body{
+	margin:75px 0px 0px 0px;
+	padding:0;
+	background-color:#ffe3e3;
+	font-family:Georgia, sans-serif;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
 }
-.vanoni:hover{box-shadow:2px 2px 5px #000}
-section{display:flex!important;justify-content:center;align-items:center;flex-wrap:wrap;transform-style:preserve-3d;width:100%;position:relative}
-section .carta{position:relative;width:320px;height:320px;margin:30px 30px 0 10px;transform-style:preserve-3d;perspective:1000px}
-section .carta .caja{position:absolute;top:0;left:0;width:100%;height:100%;transform-style:preserve-3d;transition:1s ease}
-section .carta:hover .caja{transform:rotateY(180deg);border-radius:10px}
-section .carta .caja .imgcaja{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:10px}
-section .carta .caja .imgcaja img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;border-radius:10px}
-section .carta .caja .contenidocaja{position:absolute;top:0;left:0;width:100%;height:100%;background:#87ceeb;backface-visibility:hidden;display:flex;justify-content:center;align-items:center;transform-style:preserve-3d;transform:rotateY(180deg);border-radius:10px;text-align:center}
-section .carta .caja .contenidocaja div{transform-style:preserve-3d;padding:20px;background:orange;transform:translateZ(100px);border-radius:10px}
-section .carta .caja .contenidocaja div h2{color:#000;font-size:20px;letter-spacing:1px;text-align:center}
-section .carta .caja .contenidocaja div p{color:#fff;font-size:18px;font-weight:700}
-section h3{display:block}
-button{border:3px groove #87ff99;padding:10px}
-button a{text-decoration:none;font-weight:700;color:orange}
-button:hover{background-color:#dbffe1}
-button a:hover{color:#000}
-button.botonconfirmacion{border:3px solid #1288ff;padding:10px;font-weight:700}
-button.botonconfirmacion:hover{background-color:#8bc3fc;color:#fff;text-shadow:1px 1px 2px #000;border:3px solid #00b0e0}
-.selecthr{border:2px outset #ff5252}
-footer{margin:18px 0 0;padding:0 5px;position:relative;text-align:center;background-color:#ff8066;color:#fff;text-align:center;border-radius:3px;box-shadow:-1px -1px 7px #000;text-shadow:1px 1px 2px #000}
-footer div div p{position:relative;display:inline;padding:20px 0;margin:20px 0}
-footer div{position:relative;list-style:none;padding:7px;text-align:center}
-footer div div div p .fa{padding:2px 10px;font-size:2em;color:#bce6c4}
-footer div div div p:before{font-family:fontAwesome;position:absolute;top:1px;left:10px;font-size:2em;height:0;overflow:hidden;transition:.5s ease-in-out}
-footer div div div p:nth-child(2)::before{content:'\f082';color:#0084ff;border-bottom:4px solid #0084ff}
-footer div div div p:nth-child(3)::before{content:'\f16d';color:#009f4f;border-bottom:4px solid #009f4f}
-footer div div div p:hover::before{height:85%;cursor:pointer}
-.localubi{border-radius:10px}
+
+hr{
+	border:2px dashed skyblue;
+	animation-name:hr;
+	Animation-duration: 4s;
+	animation-direction: alternate;
+}
+
+@keyframes hr{
+	 from {width:0%;}
+     to {width:100%;}
+}
+
+.nav-wrapper{
+	margin: 0px 0px 12px 0px!important;
+}
+
+header{
+	position:absolute;
+	top:0;
+	left:0;
+	padding:0 0px 0 0;
+	background-image: linear-gradient(170deg, #ff8305, #e8dd73, #70ff00);
+	width:100%;
+	box-sizing:border-box;
+	z-index:1;
+	
+}
+
+
+
+header .logoboca{
+	float: left;
+	border-radius:5px;
+	height:100%;
+	width:26%;
+	vertical-align:middle;
+	display:block;
+	padding-left:15px;
+}
+
+header nav{
+	float:right;
+}
+
+header nav.active{
+	left:0;
+}
+
+header nav ul{
+	margin:0;
+	padding:0;
+	display:flex;
+}
+
+header nav ul li{
+	list-style:none;
+	font-weight:bold;
+}
+
+
+header nav ul li a{
+	height:50px;
+	line-height:50px;
+	padding:0 20px;
+	color:#4a4a4a;
+	text-decoration:none;
+	display:block;
+}
+
+
+header nav ul li a:hover, header nav ul li a.active{
+	color:red;
+	background:orange;
+}
+
+
+@media(max-width: 991px){
+	header{
+		padding:0 20px;
+	}
+	.menu-toogle{
+		display:block;
+	}
+	header nav{
+		position:absolute;
+		width:100%;
+		height:calc(100vh - 50px);
+		background: #ffce8f;
+		top:50px;
+		left:-100%;
+		transition:1.0s;
+	}
+	header nav.active{
+		left:0;
+	}
+	header nav ul{
+		display:block;
+		text-align:center;
+	}
+	
+	header nav ul li{
+		list-style:none;
+		font-weight:bold;
+		font-size:23px;
+	}
+	
+	header .logoboca{
+	float: left;
+	border-radius:5px;
+	height:100%;
+	width:34%;
+	vertical-align:middle;
+	display:block;
+	padding-left:15px;
+	}
+	
+	img#facebookcontact{
+	width:100%;
+	height:100%;
+	}
+	
+	img.espe, img.teojama, img.ucentral, img.vanoni{
+	width:70%!important;
+	height:100%;
+	padding:10px;
+	}
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 8px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: orange;
+	color:black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* pagina contacto nav */
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 8px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: orange;
+	color:black;
+}
+
+.dropdown:hover .dropdown-contenido {
+  display: block;
+}
+
+
+
+
+article{
+	text-align:center;
+	padding:0;
+	width:100%;
+}
+
+article div{
+	justify-content:center;
+	align-items:center;
+	font-weight:bold;
+}
+
+article div.banquete{
+	background-color:#dbffe1!important;
+}
+
+article div.oferta1{
+	background-color:#fcd8c5!important;
+	border: 7px groove #ff9999!important;
+}
+
+article div.servicio{
+	background-color:#fcd8c5!important;
+	border: 7px groove #ff9999!important;
+}
+
+article div.article1 div p{
+	font-size:17px;
+	font-weight: bold;
+}
+article div.article1 div{
+	position:relative;
+	display:inline-block;
+	align-items:center;
+	justify-content:center;
+	border:7px groove #87ff99;
+	padding:10px;
+	margin-bottom:10px;
+	border-radius:10px;
+	background-color:#dbffe1;
+}
+
+article div.article1 div.oferta1 p{
+	position:relative;
+	align-items:center;
+	justify-content:center;
+}
+
+article img.natyindex{
+	width:12%;
+	height:30%;
+}
+
+article h1, article h2{
+	font-family:Lucida Calligraphy;
+}
+
+.mapsico{
+	cursor:pointer;
+}
+article h1 a.instagram{
+	text-decoration:none;
+}
+
+article h1 a.instagram:hover{
+	text-decoration:none;
+	color:rgb(0,159,79);	
+}
+
+article h3 a.num1 {
+	text-decoration:none;
+	color:black;
+}
+
+article h3 a.num1:hover {
+	text-decoration:none;
+	color:rgb(0,159,79);
+}
+
+/*nuestros clientes*/
+.espe{
+	width:25%;
+	height:100%;
+	padding:10px;
+	margin:10px;
+	background-color:white;
+	border-radius:10px;
+	animation-name:espe;
+	Animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes espe{
+	 from {border: 3px solid gray;}
+     to {border:3px solid rgb(22,105,56);}
+}
+
+.espe:hover{
+	box-shadow:2px 2px 5px black;
+}
+
+
+.teojama{
+	width:20%;
+	height:100%;
+	padding:10px;
+	margin:10px;
+	background-color:white;
+	border-radius:10px;
+	animation-name:teojama;
+	Animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes teojama{
+	 from {border: 3px solid gray;}
+     to {border:3px solid rgb(33,180,126);}
+}
+
+.teojama:hover{
+	box-shadow:2px 2px 5px black;
+}
+
+
+
+.ucentral{
+	width:20%;
+	height:100%;
+	padding:10px;
+	margin:10px;
+	background-color:white;
+	border-radius:10px;
+	animation-name:ucentral;
+	Animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes ucentral{
+	 from {border: 3px solid gray;}
+     to {border:3px solid #fae92a;}
+}
+
+.ucentral:hover{
+	box-shadow:2px 2px 5px black;
+}
+
+
+
+.vanoni{
+	width:20%;
+	height:100%;
+	padding:10px;
+	margin:10px;
+	background-color:white;
+	border-radius:10px;
+	animation-name:vanoni;
+	Animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes vanoni{
+	 from {border: 3px solid rgb(101,164,40);}
+     to {border:3px solid rgb(24,79,113);}
+}
+
+.vanoni:hover{
+	box-shadow:2px 2px 5px black;
+}
+
+/*nuestros clientes*/
+
+section{
+	display:flex!important;
+	justify-content:center;
+	align-items:center;
+	flex-wrap: wrap;
+	transform-style: preserve-3d;
+	width:100%;
+	position:relative;
+}
+
+section .carta{
+	position:relative;
+	width:320px;
+	height:320px;
+	margin:30px 30px 0px 10px;
+	transform-style:preserve-3d;
+	perspective:1000px;
+}
+
+section .carta .caja{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	transform-style:preserve-3d;
+	transition:1s ease;
+}
+
+section .carta:hover .caja{
+	transform:rotateY(180deg);
+	border-radius:10px;
+}
+
+section .carta .caja .imgcaja{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	border-radius:10px;
+}
+
+section .carta .caja .imgcaja img{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	border-radius:10px;
+}
+
+section .carta .caja .contenidocaja{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:skyblue;
+	backface-visibility:hidden;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	transform-style:preserve-3d;
+	transform:rotateY(180deg);
+	border-radius:10px;
+	text-align:center;
+}
+
+section .carta .caja .contenidocaja div{
+	transform-style:preserve-3d;
+	padding:20px;
+	background:orange;
+	transform:translateZ(100px);
+	border-radius:10px;
+}
+
+section .carta .caja .contenidocaja div h2{
+	color:black;
+	font-size:20px;
+	letter-spacing:1px;
+	text-align:center;
+}
+
+section .carta .caja .contenidocaja div p{
+	color:white;
+	font-size:18px;
+	font-weight:bold;
+}
+
+section h3{
+	display:block;
+}
+
+button{
+	border:3px groove #87ff99;
+	padding:10px;
+}
+
+button a{
+	text-decoration:none;
+	font-weight:bold;
+	color:orange;
+}
+button:hover{
+	background-color:#dbffe1;
+}
+button a:hover{
+	color:black;
+}
+
+button.botonconfirmacion{
+	border:3px solid #1288ff;
+	padding:10px;
+	font-weight:bold;
+}
+
+button.botonconfirmacion:hover{
+	background-color:#8bc3fc;
+	color:white;
+	text-shadow:1px 1px 2px black;
+	border:3px solid #00b0e0;
+}
+
+.selecthr{
+	border:2px outset #ff5252;
+}
+
+
+
+footer{
+	margin:18px 0px 0px 0px;
+	padding:0px 5px;
+	position:relative;
+	text-align:center;
+	background-color: #ff8066;
+	color:white;
+	text-align:center;
+	border-radius: 3px;
+	box-shadow: -1px -1px 7px black;
+	text-shadow:1px 1px 2px black;
+}
+
+ footer div div p {
+	 position:relative;
+	 display:inline;
+	 padding:20px 0px;
+	 margin:20px 0px;
+ }
+ 
+
+ footer div {
+	position:relative;
+	list-style:none;
+	padding:7px; 
+	text-align:center;
+}
+
+
+
+footer div div div p .fa{
+	padding:2px 10px;
+	font-size:2em;
+	color:#bce6c4;
+}
+
+
+footer div div div p:before{
+	font-family: fontAwesome;
+	position:absolute;
+	top:1px;
+	left:10px;
+	font-size:2em;
+	height:0;
+	overflow:hidden;
+	transition:0.5s ease-in-out;
+}
+
+footer div div div p:nth-child(2)::before{
+	content:'\f082';
+	color:#0084ff;
+	border-bottom:4px solid #0084ff ;
+}
+footer div div div p:nth-child(3)::before{
+	content:'\f16d';
+	color:rgb(0,159,79);
+	border-bottom:4px solid rgb(0,159,79);
+}
+
+footer div div div p:hover::before{
+	height:85%;
+	cursor:pointer;
+}
+
+.container a{
+	color:white; 
+	text-decoration:underline;
+}
+
+
+
+/*contactos*/
+
+
+.localubi{
+	border-radius:10px;
+}
+
+
