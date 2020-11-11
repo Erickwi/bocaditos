@@ -601,8 +601,8 @@ footer div div div p:hover::before{
 }
 
 .container a{
-	color:white; 
-	text-decoration:underline;
+	color:white!important; 
+	text-decoration:underline!important;
 }
 
 
