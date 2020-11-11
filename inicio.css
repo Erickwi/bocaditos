@@ -4,8 +4,22 @@
 	font-size:14px!important;
 	font-weight: bold;
 }
+
 }
 
+@media(max-width: 1440px){
+.espe{
+	width:65%;
+	height:100%;
+	margin:10px;
+	background-color:white;
+	border-radius:10px;
+	animation-name:espe;
+	Animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+}
 @media(max-width: 425px){
 footer div div div p:before{
 	display:none;
@@ -18,6 +32,19 @@ footer div div div p:before{
 	width:25%!important;
 	height:100%;
 }
+
+.espe{
+	width:25%;
+	height:100%;
+	margin:10px;
+	background-color:white;
+	border-radius:10px;
+	animation-name:espe;
+	Animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
 }
 
 @media(max-width: 320px){
@@ -311,10 +338,7 @@ article h3 a.num1:hover {
 
 /*nuestros clientes*/
 .espe{
-	width:25%;
-	height:100%;
-	padding:10px;
-	margin:10px;
+
 	background-color:white;
 	border-radius:10px;
 	animation-name:espe;
@@ -334,7 +358,7 @@ article h3 a.num1:hover {
 
 
 .teojama{
-	width:20%;
+	width:75%;
 	height:100%;
 	padding:10px;
 	margin:10px;
@@ -358,7 +382,7 @@ article h3 a.num1:hover {
 
 
 .ucentral{
-	width:20%;
+	width:75%;
 	height:100%;
 	padding:10px;
 	margin:10px;
@@ -382,7 +406,7 @@ article h3 a.num1:hover {
 
 
 .vanoni{
-	width:20%;
+	width:75%;
 	height:100%;
 	padding:10px;
 	margin:10px;
