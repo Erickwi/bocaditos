@@ -558,7 +558,9 @@ button.botonconfirmacion:hover{
 	border:2px outset #ff5252;
 }
 
-
+select{
+	display:block!important;
+}
 
 footer{
 	margin:18px 0px 0px 0px;
