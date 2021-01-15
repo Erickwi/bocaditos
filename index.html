@@ -54,9 +54,9 @@
   </ul>
   
 <article>
-<h4> Bocaditos "La Guaragua" </h4>
-<h5> Para todo evento social </h5>
-<img src="LOGO NATY.png" alt="logonaty" class="natyindex"/>
+<h4 class="title1"> Bocaditos "La Guaragua" </h4>
+<h5 class="title1"> Para todo evento social </h5>
+<img src="LOGO NATY.png" alt="logonaty" class="natyindex title1"/>
 <hr>
 <div class="article1 animate_animated animate__zoomInDown">
 <div >
@@ -209,6 +209,7 @@
 	</footer>
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="js/aos.js"></script>
+<script src="js/anime.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script data-ad-client="ca-pub-7280796474142955" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script type="text/javascript"> 
@@ -218,6 +219,14 @@ $(document).ready(function(){
 AOS.init();
     });
  </script>
+	<script>
+	anime({
+  	targets: '.title1',
+ 	 translateX: [-1000, 0],
+ 	 easing: 'easeOutInBack'
+	});
+	
+	</script>
 
 </body>
 </html>
