@@ -7,6 +7,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>      
 <script src="jquery.simple.timer.js"></script>
+ <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 <script src="jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
 <style>
@@ -34,6 +38,8 @@ vertical-align: middle;
 .timer, .timer-done, .timer-loop {
     font-size: 120px;
     color: black;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke: 4px blue;
     font-weight: bold;
     padding: 10px;
 
@@ -59,12 +65,14 @@ display:inline;
   }
   .jst-timeout {
     color: red;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke: 4px red;
   }
 </style>
 </head>
 <body>
 <p class="ml12 center-align" style="display:none">Leyes de <br> Newton</p>
-<div class="timer" data-seconds-left=65></div>
+<div class="timer" data-seconds-left=2></div>
 
 <script src="jquery.js"></script>
 <script src="jquery.simple.timer.js"></script>
@@ -72,7 +80,7 @@ display:inline;
   $(function(){
     $('.timer').startTimer({
   onComplete: function(element){
-    element.addClass('is-complete');
+    element.addClass('is-complete animate__animated animate__shakeX animate__infinite');
   }
 });
   });
