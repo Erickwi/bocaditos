@@ -1,0 +1,81 @@
+<html>
+<title>HOLA</title>
+<head>
+<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>      
+<script src="jquery.simple.timer.js"></script>
+<script src="jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Century Gothic;
+}
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+background:rgb(19,255,7);
+}
+p{
+font-size:104px;
+-webkit-text-fill-color: white;
+-webkit-text-stroke: 3px red;
+font-weight:bold;
+ text-align: justify;
+vertical-align: middle;
+}
+.timer, .timer-done, .timer-loop {
+    font-size: 120px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+
+  }
+
+  // These are the default CSS classes
+  // used by this plugin. Use these values
+  // for a basic style to get started.
+div{
+display:inline;
+}
+  .jst-hours {
+    display:inline-block;
+  }
+  .jst-minutes {
+    display:inline-block;
+  }
+  .jst-seconds {
+    display:inline-block;
+  }
+  .jst-clearDiv {
+    clear: both;
+  }
+  .jst-timeout {
+    color: red;
+  }
+</style>
+</head>
+<body>
+<p class="ml12 center-align" style="display:none">Leyes de <br> Newton</p>
+<div class="timer" data-seconds-left=65></div>
+
+<script src="jquery.js"></script>
+<script src="jquery.simple.timer.js"></script>
+<script>
+  $(function(){
+    $('.timer').startTimer({
+  onComplete: function(element){
+    element.addClass('is-complete');
+  }
+});
+  });
+</script>
+</body>
+</html>
